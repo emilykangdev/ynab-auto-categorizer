@@ -1,0 +1,22 @@
+{
+  "name": "ynab-auto-categorizer",
+  "version": "0.1.0",
+  "description": "CLI to auto-categorize YNAB transactions based on historical payee behavior.",
+  "main": "src/autoCategorize.js",
+  "type": "commonjs",
+  "scripts": {
+    "auto-categorize": "node src/autoCategorize.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ynab",
+    "automation",
+    "budgeting"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.56.0",
+    "ynab": "^2.10.0"
+  }
+}
